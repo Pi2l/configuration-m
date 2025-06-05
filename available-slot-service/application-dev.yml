@@ -1,20 +1,4 @@
 spring:
-  datasource:
-    url: jdbc:postgresql://127.0.0.1:5432/clinic
-    username: postgres
-    password: jsdlqwefkjaslfijFFDFdsffwe77
-    driver-class-name: org.postgresql.Driver
-
-  jpa:
-    properties:
-      hibernate:
-        globally_quoted_identifiers: true
-
-    hibernate:
-      ddl-auto: update
-      dialect: org.hibernate.dialect.PostgreSQLDialect
-    open-in-view: true
-
   application:
     name: AVAILABLE-SLOT-SERVICE
 
