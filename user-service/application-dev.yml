@@ -16,4 +16,4 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 
 project:
-  title: User Service
+  title: UPDATED User Service
